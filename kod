@@ -1,0 +1,7 @@
+mesafe = float(input("Gittiğiniz mesafeyi km cinsinden giriniz: "))
+sure = float(input("Bu mesafeyi kat ederken geçen süreyi dakika cinsinden giriniz: "))
+
+ort_hiz = (mesafe / sure) * 60
+tempo = sure / mesafe
+
+print(f"Ortalama hızınız: {ort_hiz:.2f} km/s\n1 km için geçen zaman: {tempo:.2f} dakika")
